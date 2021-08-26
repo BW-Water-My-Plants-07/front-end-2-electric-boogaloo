@@ -6,12 +6,14 @@ const Plant = ({ plant, editPlant, deletePlant, addPlant }) => {
         deletePlant(plant); //TODO
     }
     // TODO
+    // axiosWithAuth().PUT
     const handleEdit = (e) => {
         e.stopPropagation();
         editPlant(plant); //TODO
     }
 
     // TODO
+    // axiosWithAuth().DELETE
     const handleAdd = (e) => {
         e.stopPropagation();
         addPlant(plant); //TODO
