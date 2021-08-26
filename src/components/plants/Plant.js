@@ -26,7 +26,7 @@ const Plant = ({ plant, editPlant, deletePlant, addPlant }) => {
                 <span>
                     <span className="edit" onClick={handleEdit}>📝&nbsp;</span>
                     <span className="delete" onClick={handleDelete}>❌&nbsp;</span>
-                    {`${plant.nickname}`}
+                    {`My name is ${plant.nickname}, I'm a ${plant.species}, Water me ${plant.h2oFrequency}`}
                 </span>
             </li>
         </div>
